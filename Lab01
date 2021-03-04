@@ -1,0 +1,72 @@
+#Zad1
+
+a,b,c,d,e,f,g,h =  7,8,"x","y","owoc","owocki","%%","<<"
+print(h)
+
+#Zad2
+
+a = int(input(u"podaj pierwszą liczbę"))
+b = int(input(u"podaj drugą liczbę"))
+c = input(u"wybierz działanie jakie chcesz przeprowadzić")
+if c=="dodawanie":
+    print(a+b)
+elif c=="odejmowanie":
+    print(a-b)
+elif c=="mnożenie":
+    print(a*b)
+elif c=="dzielenie":
+    print(a/b)
+else:
+    print(u"BLAD")
+
+#Zad 3 niestety nie do końca rozumiem polecenie
+#Zad 4
+import math
+
+print(0,5772156649**10)
+
+logarytm = math.log(5+(math.sin(8)**2))
+wynik=logarytm**(1/6)
+print(wynik)
+
+#Zad 5
+
+a="T"
+b="Y"
+c="M"
+d="O"
+e="N"
+napis=a+b+c+d+e
+
+print(napis)
+print(napis.capitalize())
+
+#Zad 6
+
+string="la la la la tekst piosenki la la la tekst piosenki la la la"
+substring="la"
+
+count = string.count(substring)
+print("ilość la:",count)
+
+#Zad 7
+
+tekst="Kocham pythona"
+print(tekst[2])
+print(tekst[13])
+
+#Zad 8
+
+x = string.split()
+print(x)
+
+
+#Zad 9
+
+Zmienna1="Zmienna łańcuchowa"
+Zmienna2=3,45
+Zmienna3=3
+
+print(Zmienna1)
+print(Zmienna2)
+print(Zmienna3,hex(Zmienna3))
