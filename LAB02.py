@@ -63,9 +63,9 @@ while i<10:
     i+=1
     a=int(input("podaj liczbe"))
     if(a%2==0):
-        lista.append(a)
+        zadanie8.append(a)
 
-for i in lista:
+for i in zadanie8:
     print(i)
 
 #zadanie 9 nie byłem w stanie go zrobić
